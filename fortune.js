@@ -8,3 +8,4 @@ function tellFortune(no_of_children, partners_name, location, job) {
 tellFortune(3, "Girl", "America", "Engineer")
 tellFortune(2, "Girl", "Banglore", "Doctor")
 tellFortune(1, "Girl", "Delhi", "Enetrprenuer")
+tellFortune(1, "Boy", "NOIDA", "Engineer")
