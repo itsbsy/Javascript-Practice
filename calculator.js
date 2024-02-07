@@ -43,8 +43,3 @@ let calculator = {
   console.log(sampleObject);
   
 
-
-
-
-
-
