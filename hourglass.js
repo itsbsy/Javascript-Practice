@@ -1,28 +1,26 @@
+
 function hourglassSum(arr) {
-    // Initialize maxSum with the smallest possible integer value
-    let maxSum = 0;
-  
-    // Iterate through the 6x6 array
-    for (let i = 0; i <= 3; i++) {
-      for (let j = 0; j <= 3; j++) {
-        // Calculate the sum of the current hourglass
-        let currentSum =
-          arr[i][j] +
-          arr[i][j + 1] +
-          arr[i][j + 2] +
-          arr[i + 1][j + 1] +
-          arr[i + 2][j] +
-          arr[i + 2][j + 1] +
-          arr[i + 2][j + 2];
-  
-        // Update maxSum if the currentSum is greater
-        maxSum = Math.max(maxSum, currentSum);
-      }
+    let maxSum = Number.MIN_SAFE_INTEGER;
+    console.log(maxSum)
+    for(let i=0; i<=3; i++){
+        for(let j =0; j<=3; j++){
+            let currentSum = 
+            (arr[i][j])+
+            (arr[i][j+1])+
+            (arr[i][j+2])+
+            (arr[i+1][j+1])+
+            (arr[i+2][j])+
+            (arr[i+2][j+1])+
+            (arr[i+2][j+2]);
+            if(maxSum < currentSum){
+                maxSum = currentSum
+            }
+            console.log(maxSum, currentSum)
+        }
+        
     }
-  
-    // Return the maximum hourglass sum
-    return maxSum;
-  }
+    return parseInt(maxSum)
+}
   
   // Example usage:
   const inputArray = [
