@@ -40,6 +40,6 @@ function insertElementAtIndex(arr, element, index) {
   }
   var array = [1,2,3,455,665]
 
-  insertAtLast(array, 000)
+  insertAtLast(array, 0)
   console.log(array)
 

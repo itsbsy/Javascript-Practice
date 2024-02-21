@@ -20,6 +20,6 @@ var plusOne1 = plusOne(2);
 var plusTen1 = plusTen(20);
 var plusTwenty1 = plusTwenty(40);
 
-console.log(plusOne1(3));
+console.log(plusOne1(3));   
 console.log(plusTen1(13));
 console.log(plusTwenty1(11));
