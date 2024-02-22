@@ -69,9 +69,9 @@ class Node {
   
   // Example usage:
   const linkedList = new LinkedList();
-  linkedList.append(1);
+  linkedList.append(5);
   linkedList.append(2);
-  linkedList.append(3);
+  linkedList.append(6);
   linkedList.prepend(0);
   linkedList.print(); // Output: 0 1 2 3
   
