@@ -24,7 +24,7 @@ let data = [{
     balance: 0
 }]
 
-Find the names having balance > 1000
+// Find the names having balance > 1000
 
 const users = data.filter((x) => x.balance >= 1000).map((x)=> x.name);
 const addBalance = data.filter((x) => x.age >= 40).map((x) => x.balance + 1000)
