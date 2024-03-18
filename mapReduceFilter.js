@@ -12,7 +12,7 @@ let data = [{
     balance: 56473
 },{
     name: "Aman",
-    age: 34,
+    age: 38,
     balance: 764
 },{
     name: "Palo",
