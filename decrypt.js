@@ -1,0 +1,6 @@
+const Cryptr = require('cryptr');
+
+//privateKey = cryptr.encrypt(privateKey);
+const cryptr = new Cryptr("mojow@190195");
+privateKey = cryptr.decrypt("0f89b288d19bda3858f4f5b6a62582d1e0bb042a8c843b8927bfcd3c2c7b14e14deaab894f618f0dfd51880cc08e79ef949b5174416b7c9703a8bc4ef14d2a4187df2d29c9f9d10c5baa63b280fdf783d2eedd7adc5be632fb4143d1171767300ece9e3c736cc9e232a009982232ddf597f398b887e5988baba5c64ff0243cbfdb72556fa4fcccbe0864bfd26b27ee1382a8f16c596b52c182d9a0ea5b6ec91a");
+console.log(privateKey)
